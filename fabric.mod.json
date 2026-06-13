@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "fps2",
+	"version": "${version}",
+	"name": "FPS2 HUD",
+	"description": "Advanced draggable HUD with FPS, Ping, CPS, Coords, Potions, Armor",
+	"authors": [
+		"USER via EDEN-XANDER"
+	],
+	"contact": {
+		"homepage": "https://github.com/gegwergwfgvsdfg/fps2",
+		"sources": "https://github.com/gegwergwfgvsdfg/fps2"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fps2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.fps2.Fps2"
+		],
+		"client": [
+			"com.example.fps2.Fps2Client"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
