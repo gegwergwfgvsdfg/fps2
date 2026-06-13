@@ -1,0 +1,19 @@
+# Java 21 devcontainer for Fabric modding
+{
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    }
+  },
+  "postCreateCommand": "./gradlew --version && echo 'Devcontainer ready for FPS2 HUD mod'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.fabric8-analytics",
+        "davidanson.vscode-markdownlint"
+      ]
+    }
+  }
+}
